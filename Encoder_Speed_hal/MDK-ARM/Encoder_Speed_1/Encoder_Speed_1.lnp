@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"encoder_speed_1\startup_stm32f103xe.o"
+"encoder_speed_1\main.o"
+"encoder_speed_1\gpio.o"
+"encoder_speed_1\tim.o"
+"encoder_speed_1\usart.o"
+"encoder_speed_1\stm32f1xx_it.o"
+"encoder_speed_1\stm32f1xx_hal_msp.o"
+"encoder_speed_1\stm32f1xx_hal_gpio_ex.o"
+"encoder_speed_1\stm32f1xx_hal_tim.o"
+"encoder_speed_1\stm32f1xx_hal_tim_ex.o"
+"encoder_speed_1\stm32f1xx_hal.o"
+"encoder_speed_1\stm32f1xx_hal_rcc.o"
+"encoder_speed_1\stm32f1xx_hal_rcc_ex.o"
+"encoder_speed_1\stm32f1xx_hal_gpio.o"
+"encoder_speed_1\stm32f1xx_hal_dma.o"
+"encoder_speed_1\stm32f1xx_hal_cortex.o"
+"encoder_speed_1\stm32f1xx_hal_pwr.o"
+"encoder_speed_1\stm32f1xx_hal_flash.o"
+"encoder_speed_1\stm32f1xx_hal_flash_ex.o"
+"encoder_speed_1\stm32f1xx_hal_exti.o"
+"encoder_speed_1\stm32f1xx_hal_uart.o"
+"encoder_speed_1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Encoder_Speed_1\Encoder_Speed_1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Encoder_Speed_1.map" -o Encoder_Speed_1\Encoder_Speed_1.axf
